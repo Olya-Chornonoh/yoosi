@@ -9,7 +9,7 @@
   justify-content: space-between
   align-items: center
   padding-left: 75px
-  padding-right: 75px
+  padding-right: 100px
   padding-bottom: 30px
 
 .title
@@ -28,7 +28,7 @@
 .buttons
   display: flex
   flex-direction: row
-  gap: 15px
+  gap: 55px
   padding-top: 45px
 
 .like
@@ -41,17 +41,36 @@
   color: white
   font-weight: bold
   font-size: 14px
-  line-height: 30px
-  border-radius: 5px
+  line-height: 18px
+  border-radius: 2px
+  padding: 15px 22px 15px 22px
 
 .link
   font-size: 14px
-  line-height: 30px
+  font-weight: bold
   color: white
+  text-decoration: none
+  border-bottom: 3px solid #8d76b2
+  text-transform: uppercase
 
 .slider
   background-color: rgba(0,0,0,0.5)
+  overflow-x: auto
+  &::-webkit-scrollbar
+    height: 5px
+  &::-webkit-scrollbar-track
+    background-color: rgb(52, 52, 58)
+  &::-webkit-scrollbar-thumb
+    border-radius: 20px
+    background-color: rgb(255, 255, 255)
 
 .image-container
-  padding-top: 20px
-  padding-bottom: 20px
+  width: max-content
+  padding-top: 27px
+  padding-bottom: 108px
+  display: flex
+  flex-wrap: nowrap
+  flex-direction: row
+  gap: 51px
+  margin-left: 180px
+  margin-right: 180px

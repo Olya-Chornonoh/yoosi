@@ -11,16 +11,23 @@
   <header class="yoosi">
     <h1 class="brand">YOOSI</h1>
     <div class="search">
-      <input type="search" value="Search...">
-      <button>
-        <img src="./images/header/icon_search.webp">
+      <input type="search" value="Search..." class="search">
+      <button class="search-btn">
+        <i class="fas fa-search"></i>
       </button>
     </div>
-    <div class="languages"></div>
-    <button>LOG IN</button>
-    <button>
-      <img src="./images/header/menu_gamburger.webp">
-    </button>
+    <div class="header-info">
+      <div class="languages">
+        <p>Hebrew</p>
+        <button class="languages-btn">
+          <i class="fas fa-chevron-down"></i>
+        </button>
+      </div>
+      <button class="log-in">LOG IN</button>
+      <button class="menu">
+        <img src="./images/header/menu_gamburger.webp">
+      </button>
+    </div>
   </header>
   <section class="first">
     <div class="info-and-buttons">
@@ -44,10 +51,11 @@
     </div>
     <div class="slider">
       <div class="image-container">
-        <img src="./images/first-section/post1.webp"width="340" height="166">
-        <img src="./images/first-section/post2.webp"width="340" height="166">
-        <img src="./images/first-section/post3.webp"width="340" height="166">
-        <img src="./images/first-section/post4.webp"width="340" height="166">
+        <img src="./images/first-section/post1.webp" width="340" height="166">
+        <img src="./images/first-section/post2.webp" width="340" height="166">
+        <img src="./images/first-section/post3.webp" width="340" height="166">
+        <img src="./images/first-section/post4.webp" width="340" height="166">
+        <img src="./images/first-section/post4.webp" width="340" height="166">
       </div>
     </div>
   </section>
@@ -55,15 +63,17 @@
     <h1 class="now">Available now</h1>
     <div class="yoosi-app">
       <h1 class="app">The Yooosi app</h1>
-      <button class="icon">
-        <i class="fab fa-apple"></i>
-      </button>
-      <button class="icon">
-        <i class="fab fa-android"></i>
-      </button>
-      <button class="icon">
-        <i class="fab fa-facebook-f"></i>
-      </button>
+      <div class="icon-buttons">
+        <button class="icon">
+          <i class="fab fa-apple"></i>
+        </button>
+        <button class="icon">
+          <i class="fab fa-android"></i>
+        </button>
+        <button class="icon">
+          <i class="fab fa-facebook-f"></i>
+        </button>
+      </div>
     </div>
   </section>
 </body>
